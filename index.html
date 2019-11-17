@@ -1,0 +1,86 @@
+<!-- Tugas 29 CSS -->
+<!-- Muhammad Rizwan -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tugas 29 CSS</title>
+
+    <!-- Semantic UI Offline-->
+    <link rel="stylesheet" href="Semantic-UI/semantic.min.css">
+
+    <!-- Semantic UI Online -->
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+
+    <!-- Internal CSS -->
+    <style>
+        body {
+            background-color: gray;
+            padding: 25px;
+        }
+        img {
+            padding-top: 20px;
+        }
+        form {
+            padding: 20px 10px;
+            width: 450px;
+            margin: auto;
+            background-color: white;
+            border-radius: 10px;
+        }
+    </style>
+    
+</head>
+<body>
+
+    <div class="ui middle aligned center aligned grid">
+        <div class="column">     
+          <h2 class="ui teal image header">      
+            <img src="niomic.png" class="image">      
+            <div class="content">      
+              Daftar Akun NIOMIC
+            </div>     
+          </h2>
+            <form class="ui form">
+                <div class="field">
+                    <div class="ui left icon input">
+                        <input name="nama-depan" type="text" placeholder="Nama Depan">
+                        <i class="users icon"></i>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="ui left icon input">
+                        <input name="nama-belakang" type="text" placeholder="Nama Belakang">
+                        <i class="users icon"></i>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="ui left icon input">
+                        <input name="no-tlp" type="tel" placeholder="No Tlp/HP">
+                        <i class="users icon"></i>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="ui left icon input">
+                        <input name="alamat-email" type="email" placeholder="Alamat Email">
+                        <i class="users icon"></i>
+                    </div>
+                </div>
+                <div class="field">
+                    <div class="ui left icon input">
+                        <input name="password" type="password" placeholder="Password">
+                        <i class="users icon"></i>
+                    </div>
+                </div>
+                <button class="fluid ui primary button" type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="Semantic-UI/semantic.min.js"></script>
+    
+</body>
+</html>
